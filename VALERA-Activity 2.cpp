@@ -4,7 +4,7 @@ int main() {
 string Fullname, course, yr, sec, Birthday, Motto;
 
 cout<< "Enter Fullname: ";
-cin>>Fullname;
+getline(cin,Fullname);
 cout << "Enter course: ";
 cin>>course; 
 cout<< "yr: ";
